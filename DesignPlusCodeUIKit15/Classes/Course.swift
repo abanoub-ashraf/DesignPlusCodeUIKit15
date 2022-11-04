@@ -67,3 +67,33 @@ let handbooks = [
         ]
     )
 ]
+
+let courses = [
+    Course(
+        title: "SwiftUI Concurrency",
+        subtitle: "NEW VIDEO",
+        description: "Build an iOS app for iOS 15 with custom layouts, animations and more!",
+        icon: UIImage(named: "Logo SwiftUI")!,
+        banner: UIImage(named: "Illustration 4")!,
+        authors: ["Meng To"],
+        background: UIImage(named: "Background 3")
+    ),
+    Course(
+        title: "Flutter for Designers",
+        subtitle: "20 sections - 3 hours",
+        description: "Build a Flutter app for iOS and Android with custom layouts, animations and more!",
+        icon: UIImage(named: "Logo Flutter")!,
+        banner: UIImage(named: "Illustration 1")!,
+        authors: ["Sai Kambampati"],
+        background: UIImage(named: "Background 4")
+    ),
+    Course(
+        title: "React Hooks Advanced",
+        subtitle: "20 sections - 3 hours",
+        description: "Build a React app with custom layouts, animations and more!",
+        icon: UIImage(named: "Logo React")!,
+        banner: UIImage(named: "Illustration 2")!,
+        authors: ["Meng To"],
+        background: UIImage(named: "Background 5")
+    )
+]

@@ -22,13 +22,13 @@
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                                 <subviews>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="bottomRight" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Background01" translatesAutoresizingMaskIntoConstraints="NO" id="eUd-qv-cKm">
-                                        <rect key="frame" x="0.0" y="462" width="414" height="464.5"/>
+                                        <rect key="frame" x="0.0" y="367" width="414" height="464.5"/>
                                     </imageView>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2On-ty-4OU" customClass="CustomView" customModule="DesignPlusCodeUIKit15" customModuleProvider="target">
-                                        <rect key="frame" x="16" y="20" width="382" height="363"/>
+                                        <rect key="frame" x="16" y="20" width="382" height="363.5"/>
                                         <subviews>
                                             <visualEffectView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vj8-TF-G8C" customClass="CustomBlurView" customModule="DesignPlusCodeUIKit15" customModuleProvider="target">
-                                                <rect key="frame" x="0.0" y="0.0" width="382" height="363"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="382" height="363.5"/>
                                                 <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="Pfm-Y7-3ad">
                                                     <rect key="frame" x="0.0" y="0.0" width="382" height="363"/>
                                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -131,13 +131,13 @@
                                         </userDefinedRuntimeAttributes>
                                     </view>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="RECENT HANDBOOKS" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="in7-Q8-p0a">
-                                        <rect key="frame" x="16" y="423" width="136.5" height="16"/>
+                                        <rect key="frame" x="16" y="423.5" width="136.5" height="16"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                         <color key="textColor" systemColor="secondaryLabelColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="b6n-Ph-Wcp">
-                                        <rect key="frame" x="16" y="455" width="382" height="257"/>
+                                        <rect key="frame" x="16" y="455.5" width="382" height="257"/>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <constraints>
                                             <constraint firstAttribute="width" relation="lessThanOrEqual" constant="400" id="8yR-Zw-bZj"/>
@@ -302,15 +302,15 @@
                                             </collectionViewCell>
                                         </cells>
                                     </collectionView>
-                                    <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="350" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="1jw-Ze-rGn">
-                                        <rect key="frame" x="16" y="784" width="382" height="400"/>
+                                    <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="350" estimatedRowHeight="-1" sectionHeaderHeight="1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="1" estimatedSectionFooterHeight="-1" contentViewInsetsToSafeArea="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1jw-Ze-rGn">
+                                        <rect key="frame" x="16" y="784.5" width="382" height="400"/>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="400" id="Bpm-ZP-cHo"/>
                                             <constraint firstAttribute="width" relation="lessThanOrEqual" constant="500" id="H3L-6r-Vcr"/>
                                         </constraints>
                                         <prototypes>
-                                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="CoursesTableCell" rowHeight="350" id="W7g-gm-Os2">
+                                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="CoursesTableCell" rowHeight="350" id="W7g-gm-Os2" customClass="CoursesTableViewCell" customModule="DesignPlusCodeUIKit15" customModuleProvider="target">
                                                 <rect key="frame" x="0.0" y="44.5" width="382" height="350"/>
                                                 <autoresizingMask key="autoresizingMask"/>
                                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="W7g-gm-Os2" id="Jyz-vc-Aob">
@@ -390,11 +390,19 @@
                                                         <constraint firstItem="aXD-ee-t91" firstAttribute="leading" secondItem="Jyz-vc-Aob" secondAttribute="leading" constant="20" id="pvE-7L-jd2"/>
                                                     </constraints>
                                                 </tableViewCellContentView>
+                                                <connections>
+                                                    <outlet property="courseBackground" destination="Kmc-6M-CSW" id="zPM-2H-sTY"/>
+                                                    <outlet property="courseBanner" destination="OyG-bV-dZ9" id="80Y-BK-hg2"/>
+                                                    <outlet property="courseLogo" destination="cuY-fG-BxV" id="4hv-0c-1fk"/>
+                                                    <outlet property="descriptionLabel" destination="6z4-WV-Awm" id="nod-u6-piH"/>
+                                                    <outlet property="subtitleLabel" destination="aXD-ee-t91" id="6lN-Mk-MIY"/>
+                                                    <outlet property="titleLabel" destination="nFe-wb-eLY" id="0C1-Sg-iUP"/>
+                                                </connections>
                                             </tableViewCell>
                                         </prototypes>
                                     </tableView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="RECENT COURSES" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="meJ-Gz-NrZ">
-                                        <rect key="frame" x="16" y="752" width="115.5" height="16"/>
+                                        <rect key="frame" x="16" y="752.5" width="115.5" height="16"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                         <color key="textColor" systemColor="secondaryLabelColor"/>
                                         <nil key="highlightedColor"/>
@@ -441,6 +449,8 @@
                     <connections>
                         <outlet property="blurView" destination="vj8-TF-G8C" id="v7P-cE-s3Q"/>
                         <outlet property="cardView" destination="2On-ty-4OU" id="a5f-Zy-Zxf"/>
+                        <outlet property="coursesTableView" destination="1jw-Ze-rGn" id="hTI-dr-Jx2"/>
+                        <outlet property="coursesTableViewHeightConstraint" destination="Bpm-ZP-cHo" id="eZy-Zr-uGT"/>
                         <outlet property="handbooksCollectionView" destination="b6n-Ph-Wcp" id="E1F-4D-8jQ"/>
                     </connections>
                 </viewController>
