@@ -17,6 +17,7 @@ class FeaturedViewController: UIViewController {
     @IBOutlet weak var handbooksCollectionView: UICollectionView!
     @IBOutlet weak var coursesTableView: UITableView!
     @IBOutlet weak var coursesTableViewHeightConstraint: NSLayoutConstraint!
+    @IBOutlet weak var scrollView: UIScrollView!
     
     ///
     /// this is for storing all of the listeners tha we create for combine
@@ -48,8 +49,13 @@ class FeaturedViewController: UIViewController {
                 self.coursesTableViewHeightConstraint.constant = newContentSize.height
             }
             .store(in: &tokens)
+        
+        scrollView.delegate = self
     }
     
+    ///
+    /// the sender that will be gotten in here will be sent from inside the didSelectRowAt table view function
+    ///
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if let detailsVC = segue.destination as? CoursesViewController, let course = sender as? Course {
             detailsVC.course = course
@@ -129,6 +135,34 @@ extension FeaturedViewController: UITableViewDelegate, UITableViewDataSource {
         let selectedCourse = courses[indexPath.section]
         
         performSegue(withIdentifier: "presentCourse", sender: selectedCourse)
+    }
+    
+}
+
+extension FeaturedViewController: UIScrollViewDelegate {
+    
+    func scrollViewDidScroll(_ scrollView: UIScrollView) {
+        ///
+        /// the total height of the scrollview content
+        ///
+        let contentHeight = scrollView.contentSize.height
+        ///
+        /// this tells us for how long the user has been scrolling in the screen
+        ///
+        let lastScrollYPosition = scrollView.contentOffset.y
+        ///
+        /// this is to see after how much percentage we wanna update the title of the navigation bar per scrolling content
+        ///
+        let percentage = lastScrollYPosition / contentHeight
+        
+        if percentage <= 0.15 {
+            self.title = "Featured"
+        } else if percentage <= 0.33 {
+            self.title = "Handbooks"
+        } else {
+            self.title = "Courses"
+        }
+        
     }
     
 }
