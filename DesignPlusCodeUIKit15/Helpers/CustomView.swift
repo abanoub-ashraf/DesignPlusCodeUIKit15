@@ -14,7 +14,6 @@ class CustomView: UIView {
         didSet {
             layer.cornerRadius = cornerRadius
             layer.cornerCurve = .continuous
-            layer.masksToBounds = true
         }
     }
     
