@@ -18,6 +18,11 @@ class FeaturedViewController: UIViewController {
     @IBOutlet weak var coursesTableView: UITableView!
     @IBOutlet weak var coursesTableViewHeightConstraint: NSLayoutConstraint!
     @IBOutlet weak var scrollView: UIScrollView!
+    @IBOutlet weak var featuredTitleLabel: UILabel!
+    @IBOutlet weak var featuredSubtiteLabel: UILabel!
+    @IBOutlet weak var featureDescLabel: UILabel!
+    @IBOutlet weak var handBooksLabel: UILabel!
+    @IBOutlet weak var couresLabel: UILabel!
     
     ///
     /// this is for storing all of the listeners tha we create for combine
@@ -51,6 +56,29 @@ class FeaturedViewController: UIViewController {
             .store(in: &tokens)
         
         scrollView.delegate = self
+        
+        ///
+        /// accessiblity
+        ///
+        featuredTitleLabel.adjustsFontForContentSizeCategory = true
+        featuredTitleLabel.font = UIFont.preferredFont(for: .title1, weight: .bold)
+        featuredTitleLabel.maximumContentSizeCategory = .accessibilityExtraLarge
+        
+        featuredSubtiteLabel.adjustsFontForContentSizeCategory = true
+        featuredSubtiteLabel.font = UIFont.preferredFont(for: .footnote, weight: .bold)
+        featuredSubtiteLabel.maximumContentSizeCategory = .accessibilityMedium
+        
+        featureDescLabel.adjustsFontForContentSizeCategory = true
+        featureDescLabel.font = UIFont.preferredFont(for: .footnote, weight: .regular)
+        featureDescLabel.maximumContentSizeCategory = .accessibilityMedium
+        
+        handBooksLabel.adjustsFontForContentSizeCategory = true
+        handBooksLabel.font = UIFont.preferredFont(for: .footnote, weight: .semibold)
+        handBooksLabel.maximumContentSizeCategory = .accessibilityMedium
+        
+        couresLabel.adjustsFontForContentSizeCategory = true
+        couresLabel.font = UIFont.preferredFont(for: .footnote, weight: .semibold)
+        couresLabel.maximumContentSizeCategory = .accessibilityMedium
     }
     
     ///

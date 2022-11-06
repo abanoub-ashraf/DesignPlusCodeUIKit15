@@ -44,6 +44,18 @@ class HandbookCollectionViewCell: UICollectionViewCell {
         overlay.layer.insertSublayer(gradient, at: 0)
         overlay.layer.cornerRadius = 30
         overlay.layer.cornerCurve = .continuous
+        
+        titleLabel.adjustsFontForContentSizeCategory = true
+        titleLabel.font = UIFont.preferredFont(for: .headline, weight: .semibold)
+        titleLabel.maximumContentSizeCategory = .extraExtraLarge
+        
+        subtitleLabel.adjustsFontForContentSizeCategory = true
+        subtitleLabel.font = UIFont.preferredFont(for: .caption2, weight: .regular)
+        subtitleLabel.maximumContentSizeCategory = .extraLarge
+        
+        descriptionLabel.adjustsFontForContentSizeCategory = true
+        descriptionLabel.font = UIFont.preferredFont(for: .caption2, weight: .regular)
+        descriptionLabel.maximumContentSizeCategory = .extraLarge
     }
     
     override public func prepareForReuse() {
