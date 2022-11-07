@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C82093362919BE2E0029B6BD /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C82093352919BE2D0029B6BD /* LoginViewController.swift */; };
 		C82101AB2915B9FC00DF28FC /* CoursesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C82101AA2915B9FC00DF28FC /* CoursesTableViewCell.swift */; };
 		C82101AD2915CA2600DF28FC /* CoursesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C82101AC2915CA2600DF28FC /* CoursesViewController.swift */; };
 		C82101AF2915CCAF00DF28FC /* Section.swift in Sources */ = {isa = PBXBuildFile; fileRef = C82101AE2915CCAF00DF28FC /* Section.swift */; };
@@ -39,6 +40,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C82093352919BE2D0029B6BD /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		C82101AA2915B9FC00DF28FC /* CoursesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoursesTableViewCell.swift; sourceTree = "<group>"; };
 		C82101AC2915CA2600DF28FC /* CoursesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoursesViewController.swift; sourceTree = "<group>"; };
 		C82101AE2915CCAF00DF28FC /* Section.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Section.swift; sourceTree = "<group>"; };
@@ -135,6 +137,7 @@
 				C8BD2D362911C4770079A959 /* FeaturedViewController.swift */,
 				C82101AC2915CA2600DF28FC /* CoursesViewController.swift */,
 				C85551DF2916D67700791F52 /* ExploreViewController.swift */,
+				C82093352919BE2D0029B6BD /* LoginViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -249,6 +252,7 @@
 				C85551E429170F1700791F52 /* Topic.swift in Sources */,
 				C86F53722914797000AE6C22 /* HandbookCollectionViewCell.swift in Sources */,
 				C82101AD2915CA2600DF28FC /* CoursesViewController.swift in Sources */,
+				C82093362919BE2E0029B6BD /* LoginViewController.swift in Sources */,
 				C82101B12916934600DF28FC /* SectionTableViewCell.swift in Sources */,
 				C85551E02916D67700791F52 /* ExploreViewController.swift in Sources */,
 				C85551DC2916C7B700791F52 /* CustomTabBarController.swift in Sources */,
