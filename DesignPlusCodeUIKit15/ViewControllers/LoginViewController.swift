@@ -9,6 +9,11 @@ import UIKit
 import FirebaseAuth
 import Combine
 
+enum LoginStatus {
+    case signUp
+    case signIn
+}
+
 class LoginViewController: UIViewController {
 
     @IBOutlet weak var loginCard: CustomView!
@@ -20,7 +25,20 @@ class LoginViewController: UIViewController {
     
     private var emailIsEmpty = true
     private var passwordIsEmpty = true
+    
     private var tokens: Set<AnyCancellable> = []
+    
+    ///
+    /// toggle the ui between sign up form and sign in one based on this variable
+    ///
+    private var loginStatus: LoginStatus = .signUp {
+        didSet {
+            self.titleLabel.text = (loginStatus == .signUp) ? "Sign up" : "Sign in"
+            self.primaryButton.setTitle((loginStatus == .signUp) ? "Create account" : "Sign in", for: .normal)
+            self.accessoryButton.setTitle((loginStatus == .signUp) ? "Dont have an account?" : "Already have an account?", for: .normal)
+            self.passwordTextField.textContentType = (loginStatus == .signUp) ? .newPassword : .password
+        }
+    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -36,6 +54,9 @@ class LoginViewController: UIViewController {
             self.loginCard.frame = self.loginCard.frame.offsetBy(dx: 0, dy: -400)
         }
         
+        ///
+        /// listen to the changes that happen o the text fields to update the bool variable we will use in signing up/in
+        ///
         emailTextField.publisher(for: \.text)
             .sink(receiveValue: { newValue in
                 self.emailIsEmpty = (newValue == "" || newValue == nil)
@@ -50,6 +71,9 @@ class LoginViewController: UIViewController {
 
     }
     
+    ///
+    /// this will perform the sign in and up booth based on the enum variable we using above
+    ///
     @IBAction func primaryButtonAction(_ sender: Any) {
         if emailIsEmpty || passwordIsEmpty {
             let alert = UIAlertController(
@@ -62,21 +86,38 @@ class LoginViewController: UIViewController {
             
             self.present(alert, animated: true, completion: nil)
         } else {
-            Auth.auth().createUser(withEmail: emailTextField.text!, password: passwordTextField.text!) { authResult, error in
-                guard error == nil else {
-                    print(error!.localizedDescription)
-                    return
+            if loginStatus == .signUp {
+                Auth.auth().createUser(withEmail: emailTextField.text!, password: passwordTextField.text!) { authResult, error in
+                    guard error == nil else {
+                        print(error!.localizedDescription)
+                        return
+                    }
+                    
+                    self.goToHomeScreen()
                 }
-                
-                self.goToHomeScreen()
+            } else {
+                Auth.auth().signIn(withEmail: emailTextField.text!, password: passwordTextField.text!) { authResult, error in
+                    guard error == nil else {
+                        print(error!.localizedDescription)
+                        return
+                    }
+                    
+                    self.goToHomeScreen()
+                }
             }
         }
     }
     
+    ///
+    /// this button will toggle between the sign in form and the sign up one
+    ///
     @IBAction func accessoryButtonAction(_ sender: Any) {
-        //
+        self.loginStatus = (self.loginStatus == .signUp) ? .signIn : .signUp
     }
     
+    ///
+    /// navigate to home screen after authentication process is done
+    ///
     private func goToHomeScreen() {
         let vc = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "CustomTabBarController") as! CustomTabBarController
         vc.modalTransitionStyle = .flipHorizontal
