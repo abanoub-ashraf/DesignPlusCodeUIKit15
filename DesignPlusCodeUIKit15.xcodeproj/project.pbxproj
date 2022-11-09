@@ -24,6 +24,9 @@
 		C85901902912EE4500A00C63 /* CustomImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C859018D2912EE4500A00C63 /* CustomImageView.swift */; };
 		C86F53722914797000AE6C22 /* HandbookCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C86F53712914797000AE6C22 /* HandbookCollectionViewCell.swift */; };
 		C8B5BE71291C3E8400B73936 /* LibraryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8B5BE70291C3E8400B73936 /* LibraryViewController.swift */; };
+		C8B5BE78291C659E00B73936 /* CertificateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8B5BE75291C659E00B73936 /* CertificateView.swift */; };
+		C8B5BE79291C659E00B73936 /* FlipView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8B5BE76291C659E00B73936 /* FlipView.swift */; };
+		C8B5BE7A291C659E00B73936 /* CertificateItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8B5BE77291C659E00B73936 /* CertificateItem.swift */; };
 		C8BD2D332911C4770079A959 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8BD2D322911C4770079A959 /* AppDelegate.swift */; };
 		C8BD2D352911C4770079A959 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8BD2D342911C4770079A959 /* SceneDelegate.swift */; };
 		C8BD2D372911C4770079A959 /* FeaturedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8BD2D362911C4770079A959 /* FeaturedViewController.swift */; };
@@ -59,6 +62,9 @@
 		C859018D2912EE4500A00C63 /* CustomImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomImageView.swift; sourceTree = "<group>"; };
 		C86F53712914797000AE6C22 /* HandbookCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HandbookCollectionViewCell.swift; sourceTree = "<group>"; };
 		C8B5BE70291C3E8400B73936 /* LibraryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryViewController.swift; sourceTree = "<group>"; };
+		C8B5BE75291C659E00B73936 /* CertificateView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CertificateView.swift; sourceTree = "<group>"; };
+		C8B5BE76291C659E00B73936 /* FlipView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlipView.swift; sourceTree = "<group>"; };
+		C8B5BE77291C659E00B73936 /* CertificateItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CertificateItem.swift; sourceTree = "<group>"; };
 		C8BD2D2F2911C4770079A959 /* DesignPlusCodeUIKit15.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DesignPlusCodeUIKit15.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C8BD2D322911C4770079A959 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C8BD2D342911C4770079A959 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -102,6 +108,16 @@
 			path = Helpers;
 			sourceTree = "<group>";
 		};
+		C8B5BE72291C4EF300B73936 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C8B5BE77291C659E00B73936 /* CertificateItem.swift */,
+				C8B5BE75291C659E00B73936 /* CertificateView.swift */,
+				C8B5BE76291C659E00B73936 /* FlipView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		C8BD2D262911C4770079A959 = {
 			isa = PBXGroup;
 			children = (
@@ -121,6 +137,7 @@
 		C8BD2D312911C4770079A959 /* DesignPlusCodeUIKit15 */ = {
 			isa = PBXGroup;
 			children = (
+				C8B5BE72291C4EF300B73936 /* Views */,
 				C8F126542915AAB900716AC1 /* ViewControllers */,
 				C8F126552915AACB00716AC1 /* Cells */,
 				C8F126562915AAD800716AC1 /* Classes */,
@@ -264,7 +281,9 @@
 				C82101B12916934600DF28FC /* SectionTableViewCell.swift in Sources */,
 				C85551E02916D67700791F52 /* ExploreViewController.swift in Sources */,
 				C85551DC2916C7B700791F52 /* CustomTabBarController.swift in Sources */,
+				C8B5BE7A291C659E00B73936 /* CertificateItem.swift in Sources */,
 				C85551E229170DFD00791F52 /* TopicsTableViewCell.swift in Sources */,
+				C8B5BE79291C659E00B73936 /* FlipView.swift in Sources */,
 				C8BD2D372911C4770079A959 /* FeaturedViewController.swift in Sources */,
 				C859018F2912EE4500A00C63 /* CustomView.swift in Sources */,
 				C8BD2D332911C4770079A959 /* AppDelegate.swift in Sources */,
@@ -272,6 +291,7 @@
 				C859018E2912EE4500A00C63 /* Font.swift in Sources */,
 				C8BD2D352911C4770079A959 /* SceneDelegate.swift in Sources */,
 				C82101AF2915CCAF00DF28FC /* Section.swift in Sources */,
+				C8B5BE78291C659E00B73936 /* CertificateView.swift in Sources */,
 				C82101AB2915B9FC00DF28FC /* CoursesTableViewCell.swift in Sources */,
 				C85551DE2916D5A900791F52 /* SectionsCollectionViewCell.swift in Sources */,
 				C859018A2912EDB500A00C63 /* CustomBlurView.swift in Sources */,

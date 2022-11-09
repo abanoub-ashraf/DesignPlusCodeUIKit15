@@ -26,12 +26,12 @@
                                         <rect key="frame" x="0.0" y="-140" width="414" height="464.5"/>
                                     </imageView>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2On-ty-4OU" customClass="CustomView" customModule="DesignPlusCodeUIKit15" customModuleProvider="target">
-                                        <rect key="frame" x="16" y="20" width="382" height="362.5"/>
+                                        <rect key="frame" x="16" y="20" width="382" height="363"/>
                                         <subviews>
                                             <visualEffectView opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vj8-TF-G8C" customClass="CustomBlurView" customModule="DesignPlusCodeUIKit15" customModuleProvider="target">
-                                                <rect key="frame" x="0.0" y="0.0" width="382" height="362.5"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="382" height="363"/>
                                                 <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="Pfm-Y7-3ad">
-                                                    <rect key="frame" x="0.0" y="0.0" width="382" height="362.5"/>
+                                                    <rect key="frame" x="0.0" y="0.0" width="382" height="363"/>
                                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                                     <subviews>
                                                         <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Illustration 2" translatesAutoresizingMaskIntoConstraints="NO" id="ejr-FG-Prz">
@@ -132,13 +132,13 @@
                                         </userDefinedRuntimeAttributes>
                                     </view>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="RECENT HANDBOOKS" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="in7-Q8-p0a">
-                                        <rect key="frame" x="16" y="422.5" width="136.5" height="16"/>
+                                        <rect key="frame" x="16" y="423" width="136.5" height="16"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                         <color key="textColor" systemColor="secondaryLabelColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="b6n-Ph-Wcp">
-                                        <rect key="frame" x="16" y="454.5" width="382" height="257"/>
+                                        <rect key="frame" x="16" y="455" width="382" height="257"/>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <constraints>
                                             <constraint firstAttribute="width" relation="lessThanOrEqual" constant="400" id="8yR-Zw-bZj"/>
@@ -304,7 +304,7 @@
                                         </cells>
                                     </collectionView>
                                     <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="350" estimatedRowHeight="-1" sectionHeaderHeight="1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="1" estimatedSectionFooterHeight="-1" contentViewInsetsToSafeArea="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1jw-Ze-rGn">
-                                        <rect key="frame" x="16" y="783.5" width="382" height="400"/>
+                                        <rect key="frame" x="16" y="784" width="382" height="400"/>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="400" id="Bpm-ZP-cHo"/>
@@ -403,7 +403,7 @@
                                         </prototypes>
                                     </tableView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="RECENT COURSES" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="meJ-Gz-NrZ">
-                                        <rect key="frame" x="16" y="751.5" width="115.5" height="16"/>
+                                        <rect key="frame" x="16" y="752" width="115.5" height="16"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                         <color key="textColor" systemColor="secondaryLabelColor"/>
                                         <nil key="highlightedColor"/>
@@ -2217,18 +2217,30 @@
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
+                                    <containerView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hrv-OF-BjZ">
+                                        <rect key="frame" x="16" y="522" width="382" height="240"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="240" id="8b0-5j-UJO"/>
+                                        </constraints>
+                                        <connections>
+                                            <segue destination="h0b-yv-2Ee" kind="embed" destinationCreationSelector="createCertificatesView:" id="dDj-Xz-YaT"/>
+                                        </connections>
+                                    </containerView>
                                 </subviews>
                                 <constraints>
-                                    <constraint firstAttribute="bottom" secondItem="8El-RD-BA8" secondAttribute="bottom" constant="185" id="09I-Uk-l6I"/>
                                     <constraint firstItem="87f-Ud-buu" firstAttribute="trailing" secondItem="Rs5-Cc-BYd" secondAttribute="trailing" constant="16" id="A2u-MK-m5V"/>
                                     <constraint firstAttribute="trailing" secondItem="omW-0c-jeN" secondAttribute="trailing" constant="16" id="AEA-sH-7Uw"/>
                                     <constraint firstItem="Rs5-Cc-BYd" firstAttribute="top" secondItem="omW-0c-jeN" secondAttribute="bottom" constant="40" id="BLk-il-h4w"/>
                                     <constraint firstItem="Rs5-Cc-BYd" firstAttribute="leading" secondItem="87f-Ud-buu" secondAttribute="leading" constant="16" id="FHm-Jx-Vsn"/>
+                                    <constraint firstAttribute="bottom" secondItem="hrv-OF-BjZ" secondAttribute="bottom" constant="40" id="FVN-ja-yNG"/>
+                                    <constraint firstItem="hrv-OF-BjZ" firstAttribute="leading" secondItem="87f-Ud-buu" secondAttribute="leading" constant="16" id="VsV-22-gW4"/>
                                     <constraint firstItem="8El-RD-BA8" firstAttribute="top" secondItem="Rs5-Cc-BYd" secondAttribute="bottom" constant="30" id="bnB-vT-lpK"/>
+                                    <constraint firstItem="87f-Ud-buu" firstAttribute="trailing" secondItem="hrv-OF-BjZ" secondAttribute="trailing" constant="16" id="fJb-Hk-m2a"/>
                                     <constraint firstItem="omW-0c-jeN" firstAttribute="leading" secondItem="87f-Ud-buu" secondAttribute="leading" constant="16" id="jnl-Rg-lcg"/>
                                     <constraint firstItem="87f-Ud-buu" firstAttribute="trailing" secondItem="omW-0c-jeN" secondAttribute="trailing" constant="16" id="mPF-gQ-J73"/>
                                     <constraint firstItem="8El-RD-BA8" firstAttribute="leading" secondItem="87f-Ud-buu" secondAttribute="leading" constant="16" id="mio-II-ECa"/>
                                     <constraint firstItem="omW-0c-jeN" firstAttribute="top" secondItem="Ng6-Mx-oYi" secondAttribute="top" constant="20" id="uSE-Bm-mIg"/>
+                                    <constraint firstItem="hrv-OF-BjZ" firstAttribute="top" secondItem="8El-RD-BA8" secondAttribute="bottom" constant="16" id="yPE-Z4-YrW"/>
                                 </constraints>
                                 <viewLayoutGuide key="contentLayoutGuide" id="Yub-dM-j4m"/>
                                 <viewLayoutGuide key="frameLayoutGuide" id="87f-Ud-buu"/>
@@ -2263,6 +2275,14 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="OZk-8R-6nz" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1724.6376811594205" y="1776.5625"/>
+        </scene>
+        <!--Hosting Controller-->
+        <scene sceneID="eLP-un-Uj5">
+            <objects>
+                <hostingController id="h0b-yv-2Ee" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="B7C-2a-HMc" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2413" y="1852"/>
         </scene>
     </scenes>
     <designables>

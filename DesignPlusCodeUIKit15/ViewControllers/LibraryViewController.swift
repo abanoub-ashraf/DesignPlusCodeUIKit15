@@ -7,6 +7,7 @@
 
 import UIKit
 import Combine
+import SwiftUI
 
 class LibraryViewController: UIViewController {
 
@@ -45,6 +46,15 @@ class LibraryViewController: UIViewController {
         certificatesLabel.adjustsFontForContentSizeCategory = true
         certificatesLabel.font = UIFont.preferredFont(for: .footnote, weight: .semibold)
         certificatesLabel.maximumContentSizeCategory = .accessibilityMedium
+    }
+    
+    ///
+    /// this creates a view controller even before uikit returns it for us
+    ///
+    @IBSegueAction func createCertificatesView(_ coder: NSCoder) -> UIViewController? {
+        let v = UIHostingController(coder: coder, rootView: CertificateView())!
+        v.view.backgroundColor = .clear
+        return v
     }
     
 }
