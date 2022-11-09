@@ -19,6 +19,7 @@ class ExploreViewController: UIViewController {
     @IBOutlet weak var popularLabel: UILabel!
     
     private var tokens: Set<AnyCancellable> = []
+    private var lastScrollYPosition: CGFloat = 0
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -121,6 +122,24 @@ extension ExploreViewController: UITableViewDelegate, UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         tableView.deselectRow(at: indexPath, animated: true)
+    }
+    
+}
+
+extension ExploreViewController: UIScrollViewDelegate {
+    
+    func scrollViewDidScroll(_ scrollView: UIScrollView) {
+        self.lastScrollYPosition = scrollView.contentOffset.y
+        let totalScrollHeight = scrollView.contentSize.height
+        let percentage = lastScrollYPosition / totalScrollHeight
+        
+        if percentage <= 0.2 {
+            self.titleLabel.text = "Recent"
+        } else if percentage <= 0.6 {
+            self.titleLabel.text = "Topics"
+        } else {
+            self.titleLabel.text = "Popular"
+        }
     }
     
 }
