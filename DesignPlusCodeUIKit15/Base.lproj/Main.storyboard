@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="UMx-Qz-L75">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="n3N-oB-zfQ">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
@@ -26,12 +26,12 @@
                                         <rect key="frame" x="0.0" y="-140" width="414" height="464.5"/>
                                     </imageView>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2On-ty-4OU" customClass="CustomView" customModule="DesignPlusCodeUIKit15" customModuleProvider="target">
-                                        <rect key="frame" x="16" y="20" width="382" height="362.5"/>
+                                        <rect key="frame" x="16" y="20" width="382" height="363"/>
                                         <subviews>
                                             <visualEffectView opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vj8-TF-G8C" customClass="CustomBlurView" customModule="DesignPlusCodeUIKit15" customModuleProvider="target">
-                                                <rect key="frame" x="0.0" y="0.0" width="382" height="362.5"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="382" height="363"/>
                                                 <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="Pfm-Y7-3ad">
-                                                    <rect key="frame" x="0.0" y="0.0" width="382" height="362"/>
+                                                    <rect key="frame" x="0.0" y="0.0" width="382" height="363"/>
                                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                                     <subviews>
                                                         <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Illustration 2" translatesAutoresizingMaskIntoConstraints="NO" id="ejr-FG-Prz">
@@ -132,13 +132,13 @@
                                         </userDefinedRuntimeAttributes>
                                     </view>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="RECENT HANDBOOKS" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="in7-Q8-p0a">
-                                        <rect key="frame" x="16" y="422.5" width="136.5" height="16"/>
+                                        <rect key="frame" x="16" y="423" width="136.5" height="16"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                         <color key="textColor" systemColor="secondaryLabelColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="b6n-Ph-Wcp">
-                                        <rect key="frame" x="16" y="454.5" width="382" height="257"/>
+                                        <rect key="frame" x="16" y="455" width="382" height="257"/>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <constraints>
                                             <constraint firstAttribute="width" relation="lessThanOrEqual" constant="400" id="8yR-Zw-bZj"/>
@@ -304,7 +304,7 @@
                                         </cells>
                                     </collectionView>
                                     <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="350" estimatedRowHeight="-1" sectionHeaderHeight="1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="1" estimatedSectionFooterHeight="-1" contentViewInsetsToSafeArea="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1jw-Ze-rGn">
-                                        <rect key="frame" x="16" y="783.5" width="382" height="400"/>
+                                        <rect key="frame" x="16" y="784" width="382" height="400"/>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="400" id="Bpm-ZP-cHo"/>
@@ -403,7 +403,7 @@
                                         </prototypes>
                                     </tableView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="RECENT COURSES" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="meJ-Gz-NrZ">
-                                        <rect key="frame" x="16" y="751.5" width="115.5" height="16"/>
+                                        <rect key="frame" x="16" y="752" width="115.5" height="16"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                         <color key="textColor" systemColor="secondaryLabelColor"/>
                                         <nil key="highlightedColor"/>
@@ -956,7 +956,7 @@
         <!--Login View Controller-->
         <scene sceneID="YxI-GO-bwA">
             <objects>
-                <viewController id="UMx-Qz-L75" customClass="LoginViewController" customModule="DesignPlusCodeUIKit15" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="LoginViewController" id="UMx-Qz-L75" customClass="LoginViewController" customModule="DesignPlusCodeUIKit15" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="bzF-ea-SAR">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -965,12 +965,12 @@
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                             </imageView>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="oU5-Ds-HJa" customClass="CustomView" customModule="DesignPlusCodeUIKit15" customModuleProvider="target">
-                                <rect key="frame" x="20" y="189.5" width="374" height="517"/>
+                                <rect key="frame" x="20" y="188.5" width="374" height="519"/>
                                 <subviews>
                                     <visualEffectView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="S0P-cE-drO" customClass="CustomBlurView" customModule="DesignPlusCodeUIKit15" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="0.0" width="374" height="517"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="374" height="519"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="cOc-80-hie">
-                                            <rect key="frame" x="0.0" y="0.0" width="374" height="517"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="374" height="519"/>
                                             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                             <subviews>
                                                 <visualEffectView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="d7X-RH-Vai">
@@ -1189,12 +1189,12 @@
                                                     </constraints>
                                                 </view>
                                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iRe-0e-Uns">
-                                                    <rect key="frame" x="16" y="440.5" width="342" height="47"/>
+                                                    <rect key="frame" x="16" y="440.5" width="342" height="48"/>
                                                     <color key="tintColor" systemColor="labelColor"/>
                                                     <state key="normal" title="Button"/>
                                                     <buttonConfiguration key="configuration" style="plain" title="Already have an account?" subtitle="Sign in" titleAlignment="center">
                                                         <fontDescription key="titleFontDescription" type="system" pointSize="13"/>
-                                                        <fontDescription key="subtitleFontDescription" type="boldSystem" pointSize="13"/>
+                                                        <fontDescription key="subtitleFontDescription" type="boldSystem" pointSize="14"/>
                                                     </buttonConfiguration>
                                                     <connections>
                                                         <action selector="accessoryButtonAction:" destination="UMx-Qz-L75" eventType="touchUpInside" id="YpT-FN-vpC"/>

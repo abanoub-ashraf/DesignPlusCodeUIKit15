@@ -9,11 +9,6 @@ import UIKit
 import FirebaseAuth
 import Combine
 
-enum LoginStatus {
-    case signUp
-    case signIn
-}
-
 class LoginViewController: UIViewController {
 
     @IBOutlet weak var loginCard: CustomView!
@@ -34,8 +29,24 @@ class LoginViewController: UIViewController {
     private var loginStatus: LoginStatus = .signUp {
         didSet {
             self.titleLabel.text = (loginStatus == .signUp) ? "Sign up" : "Sign in"
+            
             self.primaryButton.setTitle((loginStatus == .signUp) ? "Create account" : "Sign in", for: .normal)
-            self.accessoryButton.setTitle((loginStatus == .signUp) ? "Dont have an account?" : "Already have an account?", for: .normal)
+            
+            var config = UIButton.Configuration.plain()
+            
+            var attributtedTitle = AttributedString.init((loginStatus == .signUp) ? "Already have an account?" : "Dont have an account?")
+            var attributttedSubtitle = AttributedString.init((loginStatus == .signUp) ? "Sign in" : "Sign up")
+            
+            attributtedTitle.font = UIFont.systemFont(ofSize: 14.0, weight: .regular)
+            attributttedSubtitle.font = UIFont.systemFont(ofSize: 14.0, weight: .bold)
+            
+            config.attributedTitle = attributtedTitle
+            config.attributedSubtitle = attributttedSubtitle
+            
+            config.titleAlignment = .center
+            
+            self.accessoryButton.configuration = config
+            
             self.passwordTextField.textContentType = (loginStatus == .signUp) ? .newPassword : .password
         }
     }

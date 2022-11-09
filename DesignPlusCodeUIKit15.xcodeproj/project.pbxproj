@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		C82093362919BE2E0029B6BD /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C82093352919BE2D0029B6BD /* LoginViewController.swift */; };
+		C8209341291B8E7C0029B6BD /* LoginStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8209340291B8E7C0029B6BD /* LoginStatus.swift */; };
 		C82101AB2915B9FC00DF28FC /* CoursesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C82101AA2915B9FC00DF28FC /* CoursesTableViewCell.swift */; };
 		C82101AD2915CA2600DF28FC /* CoursesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C82101AC2915CA2600DF28FC /* CoursesViewController.swift */; };
 		C82101AF2915CCAF00DF28FC /* Section.swift in Sources */ = {isa = PBXBuildFile; fileRef = C82101AE2915CCAF00DF28FC /* Section.swift */; };
@@ -41,6 +42,7 @@
 
 /* Begin PBXFileReference section */
 		C82093352919BE2D0029B6BD /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		C8209340291B8E7C0029B6BD /* LoginStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginStatus.swift; sourceTree = "<group>"; };
 		C82101AA2915B9FC00DF28FC /* CoursesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoursesTableViewCell.swift; sourceTree = "<group>"; };
 		C82101AC2915CA2600DF28FC /* CoursesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoursesViewController.swift; sourceTree = "<group>"; };
 		C82101AE2915CCAF00DF28FC /* Section.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Section.swift; sourceTree = "<group>"; };
@@ -93,6 +95,7 @@
 				C859018C2912EE4500A00C63 /* CustomView.swift */,
 				C859018B2912EE4400A00C63 /* Font.swift */,
 				C85551DB2916C7B700791F52 /* CustomTabBarController.swift */,
+				C8209340291B8E7C0029B6BD /* LoginStatus.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -249,6 +252,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C8F126532915A2EA00716AC1 /* Course.swift in Sources */,
+				C8209341291B8E7C0029B6BD /* LoginStatus.swift in Sources */,
 				C85551E429170F1700791F52 /* Topic.swift in Sources */,
 				C86F53722914797000AE6C22 /* HandbookCollectionViewCell.swift in Sources */,
 				C82101AD2915CA2600DF28FC /* CoursesViewController.swift in Sources */,
