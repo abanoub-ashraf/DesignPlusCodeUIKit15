@@ -41,6 +41,8 @@
 		C8D27CD029186F8C0066D2B1 /* FirebaseMessaging in Frameworks */ = {isa = PBXBuildFile; productRef = C8D27CCF29186F8C0066D2B1 /* FirebaseMessaging */; };
 		C8D27CD229186F8C0066D2B1 /* FirebasePerformance in Frameworks */ = {isa = PBXBuildFile; productRef = C8D27CD129186F8C0066D2B1 /* FirebasePerformance */; };
 		C8D27CD429186FCA0066D2B1 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C8D27CD329186FCA0066D2B1 /* GoogleService-Info.plist */; };
+		C8DEBD0C291EBEE500EA6699 /* NotificationTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8DEBD0B291EBEE500EA6699 /* NotificationTableViewCell.swift */; };
+		C8DEBD0E291EC11900EA6699 /* NotificationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8DEBD0D291EC11900EA6699 /* NotificationsViewController.swift */; };
 		C8F126532915A2EA00716AC1 /* Course.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8F126522915A2E900716AC1 /* Course.swift */; };
 /* End PBXBuildFile section */
 
@@ -74,6 +76,8 @@
 		C8BD2D3E2911C4790079A959 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C8BD2D402911C4790079A959 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C8D27CD329186FCA0066D2B1 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		C8DEBD0B291EBEE500EA6699 /* NotificationTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationTableViewCell.swift; sourceTree = "<group>"; };
+		C8DEBD0D291EC11900EA6699 /* NotificationsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationsViewController.swift; sourceTree = "<group>"; };
 		C8F126522915A2E900716AC1 /* Course.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Course.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -161,6 +165,7 @@
 				C85551DF2916D67700791F52 /* ExploreViewController.swift */,
 				C82093352919BE2D0029B6BD /* LoginViewController.swift */,
 				C8B5BE70291C3E8400B73936 /* LibraryViewController.swift */,
+				C8DEBD0D291EC11900EA6699 /* NotificationsViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -173,6 +178,7 @@
 				C82101B02916934600DF28FC /* SectionTableViewCell.swift */,
 				C85551DD2916D5A900791F52 /* SectionsCollectionViewCell.swift */,
 				C85551E129170DFD00791F52 /* TopicsTableViewCell.swift */,
+				C8DEBD0B291EBEE500EA6699 /* NotificationTableViewCell.swift */,
 			);
 			path = Cells;
 			sourceTree = "<group>";
@@ -272,7 +278,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				C8F126532915A2EA00716AC1 /* Course.swift in Sources */,
+				C8DEBD0C291EBEE500EA6699 /* NotificationTableViewCell.swift in Sources */,
 				C8209341291B8E7C0029B6BD /* LoginStatus.swift in Sources */,
+				C8DEBD0E291EC11900EA6699 /* NotificationsViewController.swift in Sources */,
 				C85551E429170F1700791F52 /* Topic.swift in Sources */,
 				C86F53722914797000AE6C22 /* HandbookCollectionViewCell.swift in Sources */,
 				C8B5BE71291C3E8400B73936 /* LibraryViewController.swift in Sources */,
