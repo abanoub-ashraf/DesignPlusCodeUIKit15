@@ -31,7 +31,7 @@
                                             <visualEffectView opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vj8-TF-G8C" customClass="CustomBlurView" customModule="DesignPlusCodeUIKit15" customModuleProvider="target">
                                                 <rect key="frame" x="0.0" y="0.0" width="382" height="363.5"/>
                                                 <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="Pfm-Y7-3ad">
-                                                    <rect key="frame" x="0.0" y="0.0" width="382" height="363.5"/>
+                                                    <rect key="frame" x="0.0" y="0.0" width="382" height="363"/>
                                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                                     <subviews>
                                                         <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Illustration 2" translatesAutoresizingMaskIntoConstraints="NO" id="ejr-FG-Prz">
@@ -487,12 +487,12 @@
                                         </constraints>
                                     </imageView>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="yxL-FN-2F8" customClass="CustomView" customModule="DesignPlusCodeUIKit15" customModuleProvider="target">
-                                        <rect key="frame" x="16" y="235" width="382" height="202.5"/>
+                                        <rect key="frame" x="16" y="234.5" width="382" height="203"/>
                                         <subviews>
                                             <visualEffectView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="XI2-T8-RNN" customClass="CustomBlurView" customModule="DesignPlusCodeUIKit15" customModuleProvider="target">
-                                                <rect key="frame" x="0.0" y="0.0" width="382" height="202.5"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="382" height="203"/>
                                                 <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="bwb-vK-BcH">
-                                                    <rect key="frame" x="0.0" y="0.0" width="382" height="202.5"/>
+                                                    <rect key="frame" x="0.0" y="0.0" width="382" height="203"/>
                                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                                     <subviews>
                                                         <view contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SrK-Fo-Pxq" customClass="CustomView" customModule="DesignPlusCodeUIKit15" customModuleProvider="target">
@@ -539,7 +539,7 @@
                                                         <visualEffectView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="v93-GR-gCe">
                                                             <rect key="frame" x="0.0" y="0.0" width="382" height="202.5"/>
                                                             <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="2Yw-hf-KuR">
-                                                                <rect key="frame" x="0.0" y="0.0" width="382" height="202.5"/>
+                                                                <rect key="frame" x="0.0" y="0.0" width="382" height="203"/>
                                                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                                                 <subviews>
                                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="to3-Yj-Flm">
@@ -970,7 +970,7 @@
                                     <visualEffectView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="S0P-cE-drO" customClass="CustomBlurView" customModule="DesignPlusCodeUIKit15" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="0.0" width="374" height="518.5"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="cOc-80-hie">
-                                            <rect key="frame" x="0.0" y="0.0" width="374" height="518.5"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="374" height="518"/>
                                             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                             <subviews>
                                                 <visualEffectView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="d7X-RH-Vai">
@@ -1329,10 +1329,10 @@
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Background 8" translatesAutoresizingMaskIntoConstraints="NO" id="jV0-jJ-qr8">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="813"/>
                             </imageView>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="SWX-Vh-4UD">
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="SWX-Vh-4UD">
                                 <rect key="frame" x="0.0" y="100" width="414" height="713"/>
                                 <subviews>
-                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="OQW-jN-UsL" customClass="CustomView" customModule="DesignPlusCodeUIKit15" customModuleProvider="target">
+                                    <view alpha="0.0" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="OQW-jN-UsL" customClass="CustomView" customModule="DesignPlusCodeUIKit15" customModuleProvider="target">
                                         <rect key="frame" x="20" y="20" width="374" height="673"/>
                                         <subviews>
                                             <visualEffectView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Jvs-oz-bDj" customClass="CustomBlurView" customModule="DesignPlusCodeUIKit15" customModuleProvider="target">
@@ -1494,7 +1494,7 @@
                                 </subviews>
                                 <constraints>
                                     <constraint firstItem="OQW-jN-UsL" firstAttribute="leading" secondItem="XYX-An-oMq" secondAttribute="leading" constant="20" id="4hr-gP-xFN"/>
-                                    <constraint firstItem="XYX-An-oMq" firstAttribute="trailing" secondItem="OQW-jN-UsL" secondAttribute="trailing" constant="20" id="5WV-sf-SL0"/>
+                                    <constraint firstAttribute="trailing" secondItem="OQW-jN-UsL" secondAttribute="trailing" constant="20" id="5WV-sf-SL0"/>
                                     <constraint firstItem="OQW-jN-UsL" firstAttribute="top" secondItem="XYX-An-oMq" secondAttribute="top" constant="20" id="7xN-kc-i9a"/>
                                     <constraint firstAttribute="bottom" secondItem="OQW-jN-UsL" secondAttribute="bottom" constant="20" id="MwQ-TI-Rg9"/>
                                     <constraint firstItem="OQW-jN-UsL" firstAttribute="centerX" secondItem="SWX-Vh-4UD" secondAttribute="centerX" id="gXs-RZ-82I"/>
@@ -1567,6 +1567,11 @@
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Notifications" image="bell.fill" catalog="system" id="GAw-se-xHl"/>
+                    <connections>
+                        <outlet property="cardView" destination="OQW-jN-UsL" id="uOU-PT-ge8"/>
+                        <outlet property="tableView" destination="fti-JS-Ksq" id="wBn-nS-1a4"/>
+                        <outlet property="tableViewHeight" destination="ciq-yk-RTr" id="QKf-ET-744"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0SX-oE-G5C" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
