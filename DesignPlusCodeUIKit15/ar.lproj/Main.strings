@@ -1,0 +1,159 @@
+
+/* Class = "UITabBarItem"; title = "Explore"; ObjectID = "0h4-KK-NbL"; */
+"0h4-KK-NbL.title" = "Explore";
+
+/* Class = "UILabel"; text = "Subtitle"; ObjectID = "2vK-Z8-Ul9"; */
+"2vK-Z8-Ul9.text" = "Subtitle";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "6Bk-Tw-QQd"; */
+"6Bk-Tw-QQd.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Description"; ObjectID = "6z4-WV-Awm"; */
+"6z4-WV-Awm.text" = "Description";
+
+/* Class = "UILabel"; text = "CERTIFICATES"; ObjectID = "8El-RD-BA8"; */
+"8El-RD-BA8.text" = "CERTIFICATES";
+
+/* Class = "UILabel"; text = "POPULAR"; ObjectID = "Aai-L4-evU"; */
+"Aai-L4-evU.text" = "POPULAR";
+
+/* Class = "UITabBarItem"; title = "Learn Now"; ObjectID = "CEp-1v-IyJ"; */
+"CEp-1v-IyJ.title" = "Learn Now";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "ECo-U0-0DA"; */
+"ECo-U0-0DA.text" = "Title";
+
+/* Class = "UITabBarItem"; title = "Notifications"; ObjectID = "GAw-se-xHl"; */
+"GAw-se-xHl.title" = "Notifications";
+
+/* Class = "UILabel"; text = "Section Description"; ObjectID = "GtC-6t-mdE"; */
+"GtC-6t-mdE.text" = "Section Description";
+
+/* Class = "UILabel"; text = "The handbookdescription over here"; ObjectID = "Gvk-a5-rSr"; */
+"Gvk-a5-rSr.text" = "The handbookdescription over here";
+
+/* Class = "UILabel"; text = "Subtitle"; ObjectID = "Id4-a8-t0J"; */
+"Id4-a8-t0J.text" = "Subtitle";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "JaV-xE-paw"; */
+"JaV-xE-paw.text" = "Label";
+
+/* Class = "UILabel"; text = "SwiftUI for iOS 15"; ObjectID = "LNI-Jb-Hvj"; */
+"LNI-Jb-Hvj.text" = "SwiftUI for iOS 15";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "LS6-7f-V9O"; */
+"LS6-7f-V9O.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Notifications"; ObjectID = "PoO-lt-njw"; */
+"PoO-lt-njw.text" = "Notifications";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "Pts-29-zKs"; */
+"Pts-29-zKs.text" = "Title";
+
+/* Class = "UIButton"; configuration.title = "Create account"; ObjectID = "Qb5-1V-bHH"; */
+"Qb5-1V-bHH.configuration.title" = "Create account";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "Qb5-1V-bHH"; */
+"Qb5-1V-bHH.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "UiX-LY-C0q"; */
+"UiX-LY-C0q.text" = "Label";
+
+/* Class = "UILabel"; text = "Section Title"; ObjectID = "Uyh-fY-i5v"; */
+"Uyh-fY-i5v.text" = "Section Title";
+
+/* Class = "UILabel"; text = "Recent"; ObjectID = "WMu-9A-Uv4"; */
+"WMu-9A-Uv4.text" = "Recent";
+
+/* Class = "UITabBarItem"; title = "Library"; ObjectID = "Xfb-kw-iZf"; */
+"Xfb-kw-iZf.title" = "Library";
+
+/* Class = "UILabel"; text = "TOPICS"; ObjectID = "Zii-wr-UuL"; */
+"Zii-wr-UuL.text" = "TOPICS";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "aXD-ee-t91"; */
+"aXD-ee-t91.text" = "Label";
+
+/* Class = "UILabel"; text = "The handbookdescription over here"; ObjectID = "afV-db-qLc"; */
+"afV-db-qLc.text" = "The handbookdescription over here";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "agZ-Kl-zzY"; */
+"agZ-Kl-zzY.text" = "Label";
+
+/* Class = "UINavigationItem"; title = "Featured"; ObjectID = "bdo-XS-VuW"; */
+"bdo-XS-VuW.title" = "Featured";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "bqH-8U-i7s"; */
+"bqH-8U-i7s.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "c99-J6-9JG"; */
+"c99-J6-9JG.text" = "Label";
+
+/* Class = "UITextField"; placeholder = "Password"; ObjectID = "eOK-YT-w2p"; */
+"eOK-YT-w2p.placeholder" = "Password";
+
+/* Class = "UITextField"; placeholder = "Email address"; ObjectID = "eY3-I9-18a"; */
+"eY3-I9-18a.placeholder" = "Email address";
+
+/* Class = "UILabel"; text = "Author Name"; ObjectID = "ecE-be-GVn"; */
+"ecE-be-GVn.text" = "Author Name";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "eeg-er-nkx"; */
+"eeg-er-nkx.text" = "Label";
+
+/* Class = "UILabel"; text = "Description"; ObjectID = "exr-lk-Hm0"; */
+"exr-lk-Hm0.text" = "Description";
+
+/* Class = "UILabel"; text = "By clicking on Sign up, you agree to our Terms of service and Privacypolicy."; ObjectID = "fZv-IC-1JT"; */
+"fZv-IC-1JT.text" = "By clicking on Sign up, you agree to our Terms of service and Privacypolicy.";
+
+/* Class = "UIButton"; configuration.subtitle = "Sign in"; ObjectID = "iRe-0e-Uns"; */
+"iRe-0e-Uns.configuration.subtitle" = "Sign in";
+
+/* Class = "UIButton"; configuration.title = "Already have an account?"; ObjectID = "iRe-0e-Uns"; */
+"iRe-0e-Uns.configuration.title" = "Already have an account?";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "iRe-0e-Uns"; */
+"iRe-0e-Uns.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Sign up"; ObjectID = "iZZ-f6-Bie"; */
+"iZZ-f6-Bie.text" = "Sign up";
+
+/* Class = "UILabel"; text = "RECENT HANDBOOKS"; ObjectID = "in7-Q8-p0a"; */
+"in7-Q8-p0a.text" = "RECENT HANDBOOKS";
+
+/* Class = "UILabel"; text = "Course Title"; ObjectID = "l71-Mt-Omt"; */
+"l71-Mt-Omt.text" = "Course Title";
+
+/* Class = "UILabel"; text = "Course Title"; ObjectID = "ljZ-OE-hCq"; */
+"ljZ-OE-hCq.text" = "Course Title";
+
+/* Class = "UILabel"; text = "20 SECTIONS - 3 HOURS"; ObjectID = "llE-QW-dY4"; */
+"llE-QW-dY4.text" = "20 SECTIONS - 3 HOURS";
+
+/* Class = "UILabel"; text = "RECENT COURSES"; ObjectID = "meJ-Gz-NrZ"; */
+"meJ-Gz-NrZ.text" = "RECENT COURSES";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "nFe-wb-eLY"; */
+"nFe-wb-eLY.text" = "Title";
+
+/* Class = "UILabel"; text = "Build an iOS app for iOS 15 with custom  layouts, animations and more!"; ObjectID = "ntk-rL-mWS"; */
+"ntk-rL-mWS.text" = "Build an iOS app for iOS 15 with custom  layouts, animations and more!";
+
+/* Class = "UILabel"; text = "Learn about the foramtted(date:time:) method and AsyncImage as told by us in class"; ObjectID = "nu6-IK-9fc"; */
+"nu6-IK-9fc.text" = "Learn about the foramtted(date:time:) method and AsyncImage as told by us in class";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "to3-Yj-Flm"; */
+"to3-Yj-Flm.text" = "Title";
+
+/* Class = "UILabel"; text = "Library"; ObjectID = "uHA-7h-Agl"; */
+"uHA-7h-Agl.text" = "Library";
+
+/* Class = "UILabel"; text = "Subtitle"; ObjectID = "wdB-LH-IcS"; */
+"wdB-LH-IcS.text" = "Subtitle";
+
+/* Class = "UILabel"; text = "Access 120+ hours of courses, tutorials and livestreams"; ObjectID = "y7k-vC-n5V"; */
+"y7k-vC-n5V.text" = "Access 120+ hours of courses, tutorials and livestreams";
+
+/* Class = "UILabel"; text = "Section Title"; ObjectID = "zXG-74-Gt5"; */
+"zXG-74-Gt5.text" = "Section Title";

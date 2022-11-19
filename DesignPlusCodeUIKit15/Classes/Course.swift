@@ -45,8 +45,11 @@ class Course {
 
 let handbooks = [
     Course(
-        title: "SwiftUI Handbook",
-        subtitle: "80 sections - 9 hours",
+        ///
+        /// this is how to use localizable strings for different languages
+        ///
+        title: NSLocalizedString("SwiftUI Handbook", comment: "SwiftUI Handbook"),
+        subtitle: NSLocalizedString("80 sections - 9 hours", comment: "80 sections - 9 hours"),
         description: "Build an iOS app for iOS 15 with custom layouts, animations and more!",
         icon: UIImage(named: "Logo SwiftUI")!,
         banner: UIImage(named: "Illustration 2")!,
