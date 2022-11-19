@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>DesignPlusCodeUIKit15.ipa</key>
+	<array>
+		<dict>
+			<key>architectures</key>
+			<array>
+				<string>arm64</string>
+			</array>
+			<key>bitcode</key>
+			<true/>
+			<key>buildNumber</key>
+			<string>1</string>
+			<key>certificate</key>
+			<dict>
+				<key>SHA1</key>
+				<string>A7E894C99A3F5EFD2ED581FBAF0D1B4141E8A29D</string>
+				<key>dateExpires</key>
+				<string>19/11/2023</string>
+				<key>type</key>
+				<string>Cloud Managed Apple Distribution</string>
+			</dict>
+			<key>entitlements</key>
+			<dict>
+				<key>application-identifier</key>
+				<string>U6JX84M9ZS.com.abanoubashraf.DesignPlusCodeUIKit15</string>
+				<key>aps-environment</key>
+				<string>production</string>
+				<key>beta-reports-active</key>
+				<true/>
+				<key>com.apple.developer.team-identifier</key>
+				<string>U6JX84M9ZS</string>
+				<key>get-task-allow</key>
+				<false/>
+			</dict>
+			<key>name</key>
+			<string>DesignPlusCodeUIKit15.app</string>
+			<key>profile</key>
+			<dict>
+				<key>UUID</key>
+				<string>f591fa1c-e582-4292-b713-ae446a350f3b</string>
+				<key>dateExpires</key>
+				<string>19/11/2023</string>
+				<key>name</key>
+				<string>iOS Team Store Provisioning Profile: com.abanoubashraf.DesignPlusCodeUIKit15</string>
+			</dict>
+			<key>symbols</key>
+			<true/>
+			<key>team</key>
+			<dict>
+				<key>id</key>
+				<string>U6JX84M9ZS</string>
+				<key>name</key>
+				<string>Abanoub Ashraf (Individual)</string>
+			</dict>
+			<key>versionNumber</key>
+			<string>1.0</string>
+		</dict>
+	</array>
+</dict>
+</plist>
